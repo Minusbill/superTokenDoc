@@ -163,6 +163,9 @@ export default defineConfig({
     }
   },
   head: [
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg?v=2" }],
+    ["link", { rel: "shortcut icon", href: "/favicon.svg?v=2" }],
+    ["link", { rel: "apple-touch-icon", href: "/favicon.svg?v=2" }],
     ["meta", { name: "theme-color", content: "#10152b" }],
     ["meta", { name: "keywords", content: "SuperToken, AI API, Claude, GPT, Gemini" }],
     ["meta", { name: "supertoken-base-url", content: baseUrl }]
